@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+header{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    border-bottom: 5px solid rgb(51, 255, 144);
+    background-color: aliceblue;
+    width: 100%;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color:aliceblue;
+    width: 500px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    flex-direction: row;
+    display: flex;
+    margin: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 7px 7px 7px rgb(51, 255, 144);
+}
+
+a{
+    text-decoration: none;
+}
+
+.caja{
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: aliceblue;
+    
+}
+
+#quienes{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    text-overflow: ellipsis;
+}
+
+.link-style{
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(51, 255, 144);
+}
+
+.bancostit{
+    display: flex;   
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(51, 255, 144);
+    justify-content: center;
+}
+#servicios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(51, 255, 144);
+}
+.container{
+    font-family: "Quicksand", sans-serif;
+    background-color: aliceblue;
+}
+
+#contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(51, 255, 144);
+    font-family: "Quicksand", sans-serif;
+    justify-content: center;
+
+}
+
+.ubicacion{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 767px) {
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 100%
+
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: aliceblue;
+    width: 100%
+
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.presentacion{
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+}
+
+.bancos{
+    display: flex;
+    flex-direction: row;
+}
+#servicios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(51, 255, 144);
+}
+.container{
+    font-family: "Quicksand", sans-serif;
+}
+
+#contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(51, 255, 144);
+
+}
+
+.ubicacion{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
